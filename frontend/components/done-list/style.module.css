@@ -1,0 +1,28 @@
+.doneListContainer {
+    background: linear-gradient(#fde9e9, #fcb44e 30%);
+    border-style: none;
+    border-radius: 7px;
+    overflow: scroll;
+    height: calc(60% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.doneBarContainer {
+    background-color: #22ff31;
+    width: 80%;
+    /* border: 1px solid #0717f7; */
+    border-radius: 5px;
+    color: black;
+    padding: 0.7rem;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 255, .2);
+}
+
+.textContainer {
+    margin: 1rem 0 0 0;
+    color: rgb(0, 0, 0);
+}

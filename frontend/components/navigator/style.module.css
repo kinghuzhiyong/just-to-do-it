@@ -1,0 +1,40 @@
+.navContainer {
+    height: 45px;
+    width: 100%;
+    background-color: #b52a2a;
+}
+
+.flexContainer {
+    margin: 0 20px 0 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.liContainer {
+    height: 100%;
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.liContainer:hover {
+    cursor: pointer;
+    animation: navigatorHoverAnimation 0.5s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navigatorHoverAnimation {
+    100% {
+        background-color: white;
+        color: black;
+    }
+}

@@ -1,0 +1,10 @@
+.pageContainer {
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
+    height: 90%;
+}
+
+.rightContainer {
+    margin: 20px 20px 0 20px;
+    height: 37rem;
+}
